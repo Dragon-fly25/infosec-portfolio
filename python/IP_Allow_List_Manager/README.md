@@ -8,6 +8,12 @@ As a security professional working at a healthcare company, I developed this Pyt
 
 The script automatically removes outdated or unauthorized IP addresses from `allow_list.txt` by comparing it against a `remove_list`, ensuring that only current authorized employees can access sensitive systems.
 
+## Source
+
+This project was completed as the **final project** for the Google Cybersecurity Professional Certificate course:
+
+> **Automate Cybersecurity Tasks with Python** (Course 7)
+
 ## Features
 
 - Reads and parses an IP allow list from a text file
