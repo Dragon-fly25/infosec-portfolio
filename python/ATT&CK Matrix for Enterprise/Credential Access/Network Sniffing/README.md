@@ -50,17 +50,17 @@ Educational tool that extracts credentials from unencrypted legacy protocols (FT
    python credential_sniffer.py test_pcaps/test_ftp.pcap
 
 6. Sniffer Output
-    [*] Starting credential sniffer on test_ftp.pcap
-    [*] Loaded 17 packets
-    [+] FTP Username: labuser | Server: 127.0.0.1
-    [+] FTP Password: LabPass123! | Server: 127.0.0.1
-    [*] Analysis completed.
+[*] Starting credential sniffer on test_ftp.pcap
+[*] Loaded 17 packets
+[+] FTP Username: labuser | Server: 127.0.0.1
+[+] FTP Password: LabPass123! | Server: 127.0.0.1
+[*] Analysis completed.
 
-## Usage ## 
+## Usage 
     pip install scapy
     python credential_sniffer.py test_pcaps/test_ftp.pcap
 
-## Learning Outcomes ## 
+## Learning Outcomes 
   Practical packet analysis with the Scapy library
   Understanding of credential exposure risks in legacy protocols
   Proper mapping to MITRE ATT&CK framework
@@ -72,6 +72,6 @@ Educational tool that extracts credentials from unencrypted legacy protocols (FT
   Test PCAP included in test_pcaps/
 
 ## Future Enhancements ##
-  Live sniffing mode
+  Live sniffing mode (sniff())
   Expanded protocol support (SMTP, Telnet)
-  Defensive counterpart (detection rules)
+  Defensive counterpart (detection rules / log analyzer)
