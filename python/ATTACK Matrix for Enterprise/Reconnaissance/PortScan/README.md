@@ -14,6 +14,14 @@ A Python tool using **Scapy** for TCP SYN port scanning and basic DNS server det
 - Command-line options for ports and timeout
 - Clean logging and summary output
 
+## Attribution & Acknowledgments
+
+- Base concepts and code examples are from the **Python for Cybersecurity Specialization** on Coursera (2020) by Howard Poston.
+- Code significantly modernized, restructured, and enhanced with help from **Grok (xAI)**.
+- All implementation, testing, and final code are my own.
+
+**Disclaimer**: For educational purposes only. Use exclusively on authorized targets and lab environments.
+
 ## Usage
 
 ```bash
