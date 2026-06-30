@@ -22,6 +22,12 @@ Educational Python tool that demonstrates extraction of credentials from unencry
 > **This tool is for educational purposes only.**  
 > It is intended to be used exclusively in authorized, isolated lab environments (e.g., SANS SEC504 Windows VM). Unauthorized use on networks you do not own or have explicit permission to test is strictly prohibited.
 
+## Attribution & Acknowledgments
+
+- Base concepts and code examples are from the **Python for Cybersecurity Specialization** on Coursera (2020) by Howard Poston.
+- Code significantly modernized, restructured, and enhanced with help from **Grok (xAI)**.
+- All implementation, testing, and final code are my own.
+
 ## Usage
 
 ```powershell
