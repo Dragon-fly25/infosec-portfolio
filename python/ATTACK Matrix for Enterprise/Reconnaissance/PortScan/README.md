@@ -55,6 +55,4 @@ DNS Server: Yes
 - VM networking and troubleshooting
 - Responsible use of offensive security tools
 
-## Disclaimer
 
-For educational purposes only. Use exclusively on authorized targets and lab environments.
