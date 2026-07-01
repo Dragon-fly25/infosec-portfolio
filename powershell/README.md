@@ -39,7 +39,7 @@ Educational and authorized use only. Run this script exclusively on systems you 
 Run the script from an elevated PowerShell console:
 
 ```powershell
-.\hunt-persistencemechanisms.ps1
+.\Persistence_Hunting_Script.ps1
 ```
 
 The script automatically creates a timestamped report folder in your `Documents` directory.
