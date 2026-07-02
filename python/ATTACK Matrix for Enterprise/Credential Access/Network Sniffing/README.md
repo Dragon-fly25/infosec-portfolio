@@ -3,6 +3,9 @@
 **MITRE ATT&CK Mapping**  
 **Tactic**: Credential Access  
 **Technique**: T1040 – Network Sniffing  
+**Author:** B. Underhill  
+**Date:** June 2026  
+**Lab:** SANS 504
 
 **Language**: Python 3 (Scapy)
 
