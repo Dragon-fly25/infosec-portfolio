@@ -1,6 +1,6 @@
 # Port Scanner & DNS Recon Tool (Scapy)
 
-**Author:** Bru Und  
+**Author:** B. Underhill  
 **Date:** June 2026  
 **Lab:** SANS 504
 
