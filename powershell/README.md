@@ -4,6 +4,8 @@ An educational threat hunting tool that enumerates common persistence mechanisms
 This project demonstrates core defensive security concepts and MITRE ATT&CK® techniques frequently leveraged by adversaries for persistence (T1547, T1053, T1546, etc.).
 
 **Tested Environment:** Windows 11 (Personal lab system).
+**Author:** B. Underhill  
+**Date:** June 2026  
 
 ---
 
