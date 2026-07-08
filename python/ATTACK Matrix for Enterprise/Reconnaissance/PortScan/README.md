@@ -1,6 +1,6 @@
 # Port Scanner & DNS Recon Tool (Scapy)
 
-**Author:** Bru Und  
+**Author:** B. Underhill  
 **Date:** June 2026  
 **Lab:** SANS 504
 
@@ -13,6 +13,14 @@ A Python tool using **Scapy** for TCP SYN port scanning and basic DNS server det
 - DNS server detection
 - Command-line options for ports and timeout
 - Clean logging and summary output
+
+## Attribution & Acknowledgments
+
+- Base concepts and code examples are from the **Python for Cybersecurity Specialization** on Coursera (2020) by Howard Poston.
+- Code significantly modernized, restructured, and enhanced with help from **Grok (xAI)**.
+- All implementation, testing, and final code are my own.
+
+**Disclaimer**: For educational purposes only. Use exclusively on authorized targets and lab environments.
 
 ## Usage
 
@@ -47,6 +55,4 @@ DNS Server: Yes
 - VM networking and troubleshooting
 - Responsible use of offensive security tools
 
-## Disclaimer
 
-For educational purposes only. Use exclusively on authorized targets and lab environments.

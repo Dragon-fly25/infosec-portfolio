@@ -1,44 +1,45 @@
 # IP Allow List Manager
 
-**Automated access control list updater for a healthcare environment**
+**Automated allow list updater for restricted access control**
 
 ## Project Description
 
-As a security professional working at a healthcare company, I developed this Python script to regularly maintain an **allow list** of IP addresses that are permitted to access restricted patient records.
+This Python script was developed to maintain an allow list of IP addresses permitted to access sensitive systems. It reads an existing allow list from a file, removes any IP addresses listed in a removal list, and writes the updated allow list back to the file.
 
-The script automatically removes outdated or unauthorized IP addresses from `allow_list.txt` by comparing it against a `remove_list`, ensuring that only current authorized employees can access sensitive systems.
+The project was created as the **capstone project** for the Google Cybersecurity Professional Certificate.
 
-## Source
+## Source & Attribution
 
-This project was completed as the **final project** for the Google Cybersecurity Professional Certificate course:
+This script is based on the final project from the following course:
 
-> **Automate Cybersecurity Tasks with Python** (Course 7)
+> **Google Cybersecurity Professional Certificate – Course 7: Automate Cybersecurity Tasks with Python** (Coursera)
+
+The original course material and project structure are owned by Google. This version is shared here with attribution for portfolio and learning purposes.
 
 ## Features
 
-- Reads and parses an IP allow list from a text file
-- Removes specified IP addresses from the allow list
-- Updates the file with the revised list (one IP per line)
-- Clean and well-documented code
+- Reads IP addresses from a text file (`allow_list.txt`)
+- Removes specified IP addresses using a predefined removal list
+- Writes the updated allow list back to the file (one IP per line)
+- Includes basic documentation and clean code structure
+
+## How It Works
+
+1. Opens and reads the allow list file
+2. Converts the file content into a list of IP addresses
+3. Removes any IP addresses that appear in the `remove_list`
+4. Converts the updated list back into a string
+5. Overwrites the original file with the revised allow list
 
 ## Technologies Used
 
 - Python 3
-- File I/O operations
-- List manipulation
-
-## How It Works
-
-1. Opens and reads `allow_list.txt`
-2. Converts the content from a string into a list
-3. Removes any IP addresses that appear in the `remove_list`
-4. Converts the updated list back into a string
-5. Writes the revised allow list back to the file
+- File input/output operations
+- List manipulation and string handling
 
 ## Sample Usage
 
 ```python
-# Example remove list
 remove_list = [
     "192.168.97.225",
     "192.168.158.170",
