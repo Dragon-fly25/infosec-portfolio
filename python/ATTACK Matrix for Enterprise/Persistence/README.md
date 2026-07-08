@@ -74,7 +74,11 @@ python simulate_persistence.py --action delete
 - Tested in isolated SEC504 VM.
 - Task SecurityScanDemo successfully created and detected by the PowerShell hunter. 
 - Full cleanup verified. 
-- Snapshots used before/after testing for safety. 
+- Snapshots used before/after testing for safety.
+![Python script creating the scheduled task] (RunPythonSTScript.png)
+![PowerShell Threat Hunting Script run] (Powershell_ThreatHunting.png)
+![Scheduled Task SecurityScanDemo detected] (ScheduledTask.png)
+![Cleanup successful] (PowershellAdminCommands_taskdelete.png)
 
 ## Learning Outcomes
 - Understanding of MITRE ATT&CK Persistence tactic (T1053.005).
