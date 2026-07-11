@@ -39,11 +39,23 @@ Demonstrate the Initial Access technique of delivering a script via a simulated 
 
 ## Evidence & Detection Artifacts
 
-**Key Screenshots** (in `screenshots/` folder):
-- `Python_Server.png` – Python HTTP server running and serving the GET request
-- `BenignPayloadDownload.png` – Browser download from `127.0.0.1:8080`
-- `PayloadRunPS.png` – File in Downloads folder + "Run with PowerShell"
-- `Eventwr4104_run.png` – PowerShell Operational Log Event ID **4104** showing the full script block with `Set-ExecutionPolicy Bypass`
+**Screenshots of the Attack Chain:**
+
+![Python HTTP Server](screenshots/Python_Server.png)
+
+*Python HTTP server hosting the payload and logging the download request.*
+
+![Browser Download](screenshots/BenignPayloadDownload.png)
+
+*Simulated phishing link download via browser.*
+
+![Run with PowerShell](screenshots/PayloadRunPS.png)
+
+*User execution of the downloaded payload.*
+
+![PowerShell 4104 Event](screenshots/Eventwr4104_run.png)
+
+*Event ID 4104 showing script block execution with ExecutionPolicy Bypass.*
 
 These events provide clear indicators for SOC analysts (suspicious download followed by PowerShell execution).
 
