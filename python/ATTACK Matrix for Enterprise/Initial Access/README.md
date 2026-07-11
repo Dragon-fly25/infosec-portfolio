@@ -53,7 +53,7 @@ Demonstrate the Initial Access technique of delivering a script via a simulated 
 
 *User execution of the downloaded payload.*
 
-![PowerShell 4104 Event](screenshots/Eventwr4104_run.png)
+![PowerShell 4104 Event](screenshots/Eventvwr4104_run.png)
 
 *Event ID 4104 showing script block execution with ExecutionPolicy Bypass.*
 
