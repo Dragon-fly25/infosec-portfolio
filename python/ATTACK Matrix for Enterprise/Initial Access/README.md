@@ -40,10 +40,10 @@ Demonstrate the Initial Access technique of delivering a script via a simulated 
 ## Evidence & Detection Artifacts
 
 **Key Screenshots** (in `screenshots/` folder):
-- Python HTTP server running and serving the GET request
-- Browser download from `127.0.0.1:8080`
-- File in Downloads folder + "Run with PowerShell"
-- PowerShell Operational Log Event ID **4104** (Execute a Remote Command) showing the full script block with `Set-ExecutionPolicy Bypass`
+- `Python_Server.png` – Python HTTP server running and serving the GET request
+- `BenignPayloadDownload.png` – Browser download from `127.0.0.1:8080`
+- `PayloadRunPS.png` – File in Downloads folder + "Run with PowerShell"
+- `Eventwr4104_run.png` – PowerShell Operational Log Event ID **4104** showing the full script block with `Set-ExecutionPolicy Bypass`
 
 These events provide clear indicators for SOC analysts (suspicious download followed by PowerShell execution).
 
