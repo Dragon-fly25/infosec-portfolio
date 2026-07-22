@@ -23,6 +23,7 @@ Detects potential insider data exfiltration via USB drives by monitoring Sysmon 
    ![Run Detection Script](../docs/USB-Ex_3.png)
 
 4. **Cleanup mapped drive**
+   
    ![Cleanup Simulation](../docs/USB-Ex_4.png)
 
 **Results**:
